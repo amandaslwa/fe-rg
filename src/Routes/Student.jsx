@@ -38,7 +38,7 @@ import { useEffect, useState } from "react";
                 <Td>{student.faculty}</Td>
                 <Td>{student.programStudy}</Td>
                 <Td>
-                  <button data-testid={`delete-${student.id}`} variant="solid" colorscheme="pink.500" onClick={() => deletestudent(student.id)} className="delete-btn" type="button">
+                  <button data-testid={`delete-${student.id}`} variant='solid' colorscheme='red' onClick={() => deletestudent(student.id)} className="delete-btn" type="button">
                     Delete
                   </button>
                 </Td>
